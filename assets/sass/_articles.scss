@@ -44,8 +44,15 @@ article {
 
             a {
                 font-style: normal;
+		color: $text-color;
+		text-decoration: none;
             }
         }
+
+	ol, ul {
+	    margin-left: 2em;
+	    list-style: decimal;
+	}
 
         .meta {
             text-transform: uppercase;
@@ -80,7 +87,9 @@ article {
         }
 
         a {
-            font-style: italic;
+            font-style: normal;
+            color: $highlight-color;
+	    text-decoration: underline;
         }
 
         a.more {
